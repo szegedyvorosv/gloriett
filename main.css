@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+
+.profile-card {
+  background-color: hsla(35, 30%, 80%, .6);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  width: 480px;
+  max-width: calc(100vw - 20px);
+  margin-top: 1rem;
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+
+.profile-image {
+  margin-top: -50px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+body {
+  background: url('https://i.imgur.com/3Px3HXi.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+img:hover {
+  transform: scale(1.2) rotate(25deg);
+  filter: grayscale(20%);
+}
+h1 {
+  font-size: 30px;
+  font-family: 'Audiowide', cursive;
+  color: hsla(0, 0%, 10%, 1);
+  text-shadow: gray 0.1em 0.1em 0.1em;
+  margin-top: 1rem;
+}
+h2 {
+  font-size: 18px;
+  font-family: 'Jost', sans-serif;
+}
+span {
+  color: hsla(0, 0%, 10%, .5);
+}
+.about {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Jost', sans-serif;
+}
+
+a {
+  color: rgba(0, 0, 255, 0.6);
+}
+
+.marker {
+  font-family: 'Jost', sans-serif;
+}
+
+span {
+  font-family: 'Jost', sans-serif;
+}
